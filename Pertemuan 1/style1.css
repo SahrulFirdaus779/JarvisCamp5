@@ -1,0 +1,12 @@
+/* Style CSS untuk form */
+
+/* Mengatur padding antara setiap label dan inputan */
+form div {
+    margin-bottom: 15px; /* Memberikan jarak antara setiap elemen div dalam form */
+}
+
+/* Mengatur jarak antara label dan inputan */
+.baru {
+    display: block; /* Menempatkan label sebagai blok, sehingga kolom input berada di bawahnya */
+    margin-bottom: 20px; /* Memberikan jarak antara label dan inputan */
+}

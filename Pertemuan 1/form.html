@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Inputan</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form method="post" action="welcome.html" >
+        <h1>Buat Account Baru!</h1>
+        <h4>Sign Up Form</h4>
+        <div class="baru">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+        </div>
+        
+        <div class="baru">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+        
+        <div>
+            <label for="gender">Gender:</label>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        
+        <div class="baru">
+            <label for="nationality">Nationality:</label>
+            <select id="nationality" name="nationality" required>
+                <option value="indonesian" selected>Indonesian</option>
+                <option value="indonesian" selected>Malaysia</option>
+                <option value="indonesian" selected>Singgapura</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="language-spoken">Language Spoken:</label>
+            <div>
+                <input type="checkbox" id="bike" name="language-spoken" value="bike" >
+                <label for="bike">I have a bike</label>
+            </div>
+            <div>
+                <input type="checkbox" id="car" name="language-spoken" value="car">
+                <label for="car">I have a car</label>
+            </div>
+            <div>
+                <input type="checkbox" id="boat" name="language-spoken" value="boat">
+                <label for="boat">I have a boat</label>
+            </div>
+        </div>
+        
+        <div class="baru">
+            <label for="bio">Bio:</label>
+            <textarea id="bio" name="bio"></textarea>
+        </div>
+        
+        <div>
+            <input type="submit" value="Sign Up" src="welcome.html">
+        </div>
+    </form>    
+</body>
+</html>
