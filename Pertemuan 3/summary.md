@@ -1,0 +1,1 @@
+Di Pertemuan ketiga kemarin kita telah belajar terkait tentang PHP Dasar. Dimana pada pertemuan ini kita mempelajari apa itu php, bagaimana cara penulisannya, tipe datanya apa saja, oprator aritmatika, condition, dan perulangan. 
